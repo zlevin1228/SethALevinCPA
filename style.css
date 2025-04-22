@@ -179,3 +179,13 @@ footer {
     width: auto;
     max-width: 90%;
 }
+
+.font {
+    font-family: "Exo 2", sans-serif;
+}
+
+.landingdiv {
+    border: 5px solid #c1a12f;
+    height: 65px;
+    width: 100%;
+}
