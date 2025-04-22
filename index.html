@@ -22,7 +22,11 @@
 	<!-- Javascript Framework (e.g., vue.js) (ADD HERE) -->
 	<script src="https://unpkg.com/vue@3.0.11/dist/vue.global.js"></script>
 
-    <link rel="icon" type="image/x-icon" href="img/mic.png" />
+    <link rel="icon" type="image/x-icon" href="imgs/ico.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
@@ -32,8 +36,7 @@
             <div class="container-fluid">
 
                 <!-- web logo on left hand hand side with title -->
-                <button id="logo"> <a class="navbar-brand underline-closing fs-6" href="index.html"></button>
-                Seth A. Levin CPA</a>
+                <button id="logo"> <a class="navbar-brand underline-closing fs-6" href="index.html"></a></button>
                 <!-- web logo on left hand side with title end -->
 
                 <!-- button toggler on smaller screen -->
@@ -55,12 +58,12 @@
                         <!-- recruitment end -->
                         <!-- courses -->
                         <li class="nav-item">
-                            <a class="nav-link" href="courses.html" role="button" aria-expanded="false">
+                            <a class="nav-link" href="services.html" role="button" aria-expanded="false">
                                 Services
                             </a>
                         </li>
                         <li class="nav-item"></li>
-                            <a class="nav-link" href="courses.html" role="button" aria-expanded="false">
+                            <a class="nav-link" href="contact.html" role="button" aria-expanded="false">
                                 Contact
                             </a>
                         </li>
@@ -70,9 +73,93 @@
             </div>
         </nav>
    </header>
-    <main></main>
+    <main>
+      <div id="parallax"">
+        <div class="text-center align-items-center justify-content-center headerimg">
+          <img src="imgs/Logo.png" class="img-fluid">
+        </div>
+      </div>
+    </main>
     <footer>
-        <!-- place footer here -->
+        <!-- Remove the container if you want to extend the Footer to full width. -->
+<div class="mt-5">
+    <!-- Footer -->
+    <footer class="text-center text-white" style="background-color: #c1a12f;">
+      <!-- Grid container -->
+      <div class="">
+        <!-- Section: Links -->
+        <section class="mt-5">
+          <!-- Grid row-->
+          <div class="row text-center d-flex justify-content-center pt-5">
+  
+            <!-- Grid column -->
+            <div class="col-md-4">
+              <h6 class="text-uppercase font-weight-bold">
+                <a href="services.html" class="text-white footer-link" role="button">Services</a>
+              </h6>
+            </div>
+            <!-- Grid column -->
+  
+            <!-- Grid column -->
+            <div class="col-md-4">
+              <h6 class="text-uppercase font-weight-bold">
+                <a href="javascript:void(0)" class="text-white footer-link" role="button" onclick="topFunction()">Back To Top</a>
+              </h6>
+            </div>
+            
+            <!-- Grid column -->
+  
+            <!-- Grid column -->
+            <div class="col-md-4">
+              <h6 class="text-uppercase font-weight-bold">
+                <a href="contact.html" class="text-white footer-link" role="button">Contact</a>
+              </h6>
+            </div>
+            <!-- Grid column -->
+          </div>
+          <!-- Grid row-->
+        </section>
+        <!-- Section: Links -->
+  
+        <hr class="my-5" />
+  
+        <!-- Section: Text -->
+        <section class="mb-5">
+          <div class="row d-flex justify-content-center">
+            <div class="col-lg-8">
+              <p>
+                Thank you for visiting the website of Seth A. Levin CPA. Find our social links below.
+              </p>
+            </div>
+          </div>
+        </section>
+        <!-- Section: Text -->
+  
+        <!-- Section: Social -->
+        <section class="text-center mb-5">
+          <a href="contact.html" class="text-white me-4">
+            <i class="fab fa-google"></i>
+          </a>
+        </section>
+        <!-- Section: Social -->
+      </div>
+      <!-- Grid container -->
+  
+      <!-- Copyright -->
+      <div
+           class="text-center p-3"
+           style="background-color: rgba(0, 0, 0, 0.2)"
+           >
+        © 2025 Copyright:
+        <a class="text-white" href="https://github.com/zlevin1228"
+           >Zachary Levin</a
+          >
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+  </div>
+  <!-- End of .container -->
     </footer>
     <!-- Bootstrap JavaScript Libraries -->
     <script
