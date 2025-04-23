@@ -26,7 +26,34 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+     <!-- Google Tracking Stuff-->
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11479996666">
+  </script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
 
+    gtag('config', 'AW-11479996666');
+
+  </script>
+  <!-- Event snippet for Submit a lead conversion page
+In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+  <script>
+    function gtag_report_conversion(url) {
+      var callback = function () {
+        if (typeof (url) != 'undefined') {
+          window.location = url;
+        }
+      };
+      gtag('event', 'conversion', {
+        'send_to': 'AW-11479996666/el-5CNndjowZEPqxi-Iq',
+        'event_callback': callback
+      });
+      return false;
+    }
+  </script>
 </head>
 
 <body>
@@ -276,20 +303,6 @@
   </div>
   <!-- End of .container -->
     </footer>
-    <script>
-      function gtag_report_conversion(url) {
-        var callback = function () {
-          if (typeof (url) != 'undefined') {
-            window.location = url;
-          }
-        };
-        gtag('event', 'conversion', {
-          'send_to': 'AW-11479996666/el-5CNndjowZEPqxi-Iq',
-          'event_callback': callback
-        });
-        return false;
-      }
-    </script>
     <!-- Bootstrap JavaScript Libraries -->
     <script
         src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
