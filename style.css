@@ -384,3 +384,60 @@ footer {
 .whyus {
     max-width: 500px;
 }
+
+body {
+  font-family: "Exo 2", sans-serif;
+  text-align: center;
+  background: #fff;
+}
+
+.carousel {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  height: 250px;
+  margin-top: 20px;
+}
+
+.card {
+  position: absolute;
+  width: 450px;
+  height: 100%;
+  background-color: rgb(146, 115, 36);
+  color: black;
+  border: 8px solid #C4A42C;
+  padding: 20px;
+  opacity: 20%;
+  transform: scale(0.8);
+  transition: all 0.5s ease-in-out;
+  z-index: 0;
+  border-radius: 0;
+  font-family: "Inter", sans-serif;
+}
+
+.card.active {
+  opacity: 1;
+  transform: scale(1);
+  z-index: 10;
+}
+
+.dots {
+  margin-top: 20px;
+}
+
+.dot {
+  height: 16px;
+  width: 16px;
+  margin: 0 6px;
+  background-color: goldenrod;
+  border-radius: 50%;
+  display: inline-block;
+  cursor: pointer;
+  opacity: 0.5;
+  transition: opacity 0.3s;
+}
+
+.dot.active {
+  opacity: 1;
+}
