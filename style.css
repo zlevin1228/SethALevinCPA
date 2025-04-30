@@ -448,3 +448,21 @@ body {
     border-right: 5px solid #c1a12f; /* or any style you want */
   }
 }
+
+.accordion-item {
+  background-color: #c1a12f;
+  border: 2px solid black;
+}
+
+.accordion-button {
+  background-color: #c1a12f;
+}
+
+.accordion-button:active {
+  background-color: #e6c449;
+}
+
+.accordion-body {
+  border-right: 20px solid rgb(241, 241, 241);
+  border-left: 20px solid rgb(241, 241, 241);
+}
