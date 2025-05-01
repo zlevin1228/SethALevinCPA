@@ -458,11 +458,13 @@ body {
   background-color: #c1a12f;
 }
 
-.accordion-button:active {
-  background-color: #e6c449;
+.accordion-button:not(.collapsed) {
+  background-color: white;
+  color: #c1a12f;
 }
 
 .accordion-body {
   border-right: 20px solid rgb(241, 241, 241);
   border-left: 20px solid rgb(241, 241, 241);
+  
 }
