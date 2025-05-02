@@ -1,4 +1,7 @@
-<?php
+<?php 
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
 // Replace contact@example.com with your real receiving email address
 $receiving_email_address = 'sethalevincpa@gmail.com';
 
